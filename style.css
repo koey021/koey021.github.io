@@ -1,0 +1,71 @@
+header {
+    background-color: #f9b7b263; /* 浅粉色背景 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+  }
+  
+  .left img {
+    height: 100px;
+    width: fit-content
+  }
+  
+  .right {
+    display: flex;
+  }
+  
+  .right a {
+    display: inline-block;
+    margin-left: 20px;
+    color: #FFFFFF;
+    background-color: #D75548;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .right a:hover {
+    background-color: #EA5B4E;
+  }
+  
+.login-container {
+  position: absolute;
+  top:800px;
+  left:200px;
+  display: flex;
+  align-items: flex-end;
+  width: 2000px;
+  color: #ffffff;
+
+}
+.careNum{
+  position: absolute;
+  top:100px;
+  font-size: 50px;
+  display:inline-block
+}
+
+.login-btn {
+  background-color: white;
+  color: #D75548;
+  border: 3px solid #D75548;
+  padding: 10px 20px;
+  font-size: 50px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #D75548;
+  color: white;
+  cursor: pointer;
+}
+
+p{
+  white-space:nowrap;
+}
+

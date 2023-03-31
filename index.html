@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>网站名称 - 心肺复苏术</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: url("images/homepage.jpg") no-repeat fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<style>
+  /* 添加按钮样式 */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D75548;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+    /* 去掉边框 */
+    font-size: 2em;
+    font-weight: bold;
+    /* 文字加粗 */
+    transition: background-color 0.3s;
+    /* 添加颜色过渡效果 */
+  }
+
+  /* 鼠标悬停时的样式 */
+  .button:hover {
+    background-color: #ea5b4e;
+  }
+
+  /* 按钮的位置和对齐方式 */
+  .button-wrapper {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    text-align: right;
+  }
+</style>
+
+</head>
+
+<body>
+  <!-- 首页导航栏 -->
+  <div>
+    <div class="button-wrapper">
+      <a href="introduceCPR.html" class="button">CPR介绍</a>
+      <a href="performCPR.html" class="button">CPR教程</a>
+      <a href="AED.html" class="button">AED</a>
+    </div>
+    <div>
+      <!-- 登录按钮 -->
+      <div class="login-container">
+        <div><button class="login-btn" id="btn">Join us!</button></div>
+         <div class="careNum">
+          <span id="num">1466</span><span>人正在关注</span>
+        </div>
+      </div>
+     
+      
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+<script>
+  document.getElementById('btn').addEventListener('click',function(){
+    alert('感谢您的关注！请联系13878787878');
+    var p = document.getElementById('num');
+                p.innerHTML++;
+});
+</script>
